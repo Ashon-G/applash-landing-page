@@ -20,11 +20,11 @@ export const Tower = () => {
       <Card>
         <PulseLine />
 
-        <CalloutChip>Callout #1</CalloutChip>
-        <p className="mb-2 text-2xl">Show your product</p>
+        <CalloutChip>Step 1</CalloutChip>
+        <p className="mb-2 text-2xl">Create your app in minutes</p>
         <p className="mb-8 text-zinc-400">
-          These cards are a great place to give a high level break down of what
-          your website is about. Try to talk about benefits instead of features.
+          Name your app, paste in your website, pick colors and a template.
+          Applash builds the rest in under nine minutes.
         </p>
 
         <CornerBlur />

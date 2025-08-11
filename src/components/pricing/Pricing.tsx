@@ -19,58 +19,57 @@ export const Pricing = () => {
     >
       <MaxWidthWrapper className="relative z-10 mx-auto max-w-5xl py-20 md:py-40">
         <SectionHeadingSpacing>
-          <SectionHeading persistCenter>Pricing</SectionHeading>
+          <SectionHeading persistCenter>Simple pricing</SectionHeading>
           <SectionSubheading persistCenter>
-            Use it for free for yourself, upgrade when your team needs advanced
-            control.
+            Start for free, upgrade as you grow.
           </SectionSubheading>
         </SectionHeadingSpacing>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           <PriceCard
-            tier="Free"
+            tier="Starter"
             price="$0/mo"
-            bestFor="Best for 1-5 users"
+            bestFor="Test the waters"
             CTA={<GhostButton className="w-full">Get started free</GhostButton>}
             benefits={[
-              { text: "One workspace", checked: true },
+              { text: "One app", checked: true },
+              { text: "Live preview", checked: true },
               { text: "Email support", checked: true },
-              { text: "1 day data retention", checked: false },
-              { text: "Custom roles", checked: false },
-              { text: "Priority support", checked: false },
-              { text: "SSO", checked: false },
+              { text: "Automatic signing", checked: false },
+              { text: "TestFlight upload", checked: false },
+              { text: "Push notifications", checked: false },
             ]}
           />
           <PriceCard
             tier="Pro"
             price="$79/mo"
-            bestFor="Best for 5-50 users"
+            bestFor="For growing projects"
             CTA={
               <GhostButton className="w-full bg-zinc-50 text-zinc-950 hover:bg-zinc-200 hover:text-zinc-900">
                 14-day free trial
               </GhostButton>
             }
             benefits={[
-              { text: "Five workspaces", checked: true },
-              { text: "Email support", checked: true },
-              { text: "7 day data retention", checked: true },
-              { text: "Custom roles", checked: true },
+              { text: "Three apps", checked: true },
+              { text: "Automatic signing", checked: true },
+              { text: "Push notifications", checked: true },
+              { text: "TestFlight upload", checked: true },
               { text: "Priority support", checked: false },
-              { text: "SSO", checked: false },
+              { text: "Custom branding", checked: false },
             ]}
           />
           <PriceCard
-            tier="Enterprise"
+            tier="Business"
             price="Contact us"
-            bestFor="Best for 50+ users"
+            bestFor="For high-volume apps"
             CTA={<GhostButton className="w-full">Contact us</GhostButton>}
             benefits={[
-              { text: "Unlimited workspaces", checked: true },
-              { text: "Email support", checked: true },
-              { text: "30 day data retention", checked: true },
-              { text: "Custom roles", checked: true },
+              { text: "Unlimited apps", checked: true },
+              { text: "Automatic signing", checked: true },
+              { text: "Push notifications", checked: true },
+              { text: "Store publishing", checked: true },
               { text: "Priority support", checked: true },
-              { text: "SSO", checked: true },
+              { text: "Custom branding", checked: true },
             ]}
           />
         </div>

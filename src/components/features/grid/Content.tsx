@@ -15,15 +15,15 @@ export const Content = () => {
       <MaxWidthWrapper className="relative z-20 pb-20 pt-20 md:pb-28 md:pt-40">
         <SectionHeadingSpacing>
           <SectionHeading>
-            Show the people
+            Everything you need
             <br />
             <span className="bg-gradient-to-br from-blue-400 to-blue-700 bg-clip-text text-transparent">
-              what makes you great
+              to go mobile
             </span>
           </SectionHeading>
           <SectionSubheading>
-            Here's a good way to show some high levels pros as to what your
-            product does and for who.
+            Applash handles the heavy lifting—just bring your website and
+            we’ll turn it into a polished app.
           </SectionSubheading>
         </SectionHeadingSpacing>
 

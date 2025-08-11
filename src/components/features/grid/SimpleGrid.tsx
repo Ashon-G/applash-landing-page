@@ -13,33 +13,33 @@ export const SimpleGrid = () => (
   <div className="relative z-10 grid grid-cols-2 gap-9 px-3 md:grid-cols-3 md:gap-12 md:px-6">
     <Item
       Icon={FiCalendar}
-      title="Clear your calendar"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      title="Launch in under 9 minutes"
+      subtitle="Turn any website or CMS into a mobile app fast."
     />
     <Item
       Icon={FiWatch}
-      title="Save tens of hours"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      title="No coding required"
+      subtitle="Applash handles all the technical work for you."
     />
     <Item
       Icon={FiMoon}
-      title="Rest easy"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      title="Automatic app signing"
+      subtitle="Upload your keys once—we sign every build."
     />
     <Item
       Icon={FiDollarSign}
-      title="Save thousands"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      title="Built-in payments"
+      subtitle="Create plans and accept cards worldwide."
     />
     <Item
       Icon={FiCloud}
-      title="Simple hosting"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      title="Push notifications"
+      subtitle="Send messages and track results with OneSignal."
     />
     <Item
       Icon={FiCheck}
-      title="Everything you need"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      title="Publish everywhere"
+      subtitle="Deploy to the App Store and Play Store without a Mac."
     />
   </div>
 );

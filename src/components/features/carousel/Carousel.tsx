@@ -60,10 +60,10 @@ const Carousel = () => {
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="mb-12 flex flex-col items-center justify-between gap-6 md:flex-row md:items-end">
             <div className="space-y-3">
-              <SectionHeading>Dive into the specifics</SectionHeading>
+              <SectionHeading>Powerful features included</SectionHeading>
               <SectionSubheading>
-                Anything else you want to show off? What are you proud of? What
-                makes you different? Show it off here!
+                From signing to push notifications, Applash has everything you
+                need built in.
               </SectionSubheading>
             </div>
             <div className="flex items-center gap-2">
@@ -140,36 +140,36 @@ const features: FeatureType[] = [
   {
     id: 1,
     Icon: FiArrowUp,
-    title: "Fast & accurate reporting",
+    title: "Instant previews",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "See your app update live as you customize your site.",
   },
   {
     id: 2,
     Icon: FiShield,
-    title: "A+ Security",
+    title: "Automatic signing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Upload your keys once and Applash signs every build.",
   },
   {
     id: 3,
     Icon: FiUsers,
-    title: "World class teams",
+    title: "Push messaging",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Send targeted notifications with built‑in analytics.",
   },
   {
     id: 4,
     Icon: FiPhone,
-    title: "Best in class support",
+    title: "TestFlight uploads",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Publish to iOS without owning a Mac or touching Xcode.",
   },
   {
     id: 5,
     Icon: FiBox,
-    title: "All-in-one product",
+    title: "Flutter performance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Your site becomes a smooth, high‑speed Flutter app.",
   },
 ];
