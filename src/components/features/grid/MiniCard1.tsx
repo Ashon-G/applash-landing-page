@@ -10,11 +10,13 @@ export const MiniCard1 = () => {
     <div className="col-span-2 h-[375px] md:col-span-1">
       <Card>
         <div className="mx-auto w-fit">
-          <CalloutChip>Callout #2</CalloutChip>
+          <CalloutChip>Preview</CalloutChip>
         </div>
-        <p className="mb-1.5 text-center text-2xl">Highlight something cool</p>
-        <p className="mb-6 text-center text-zinc-400">Short and sweet.</p>
-        <BubbleButton className="mx-auto">Call to action</BubbleButton>
+        <p className="mb-1.5 text-center text-2xl">See changes instantly</p>
+        <p className="mb-6 text-center text-zinc-400">
+          Watch your app update live as you tweak colors and content.
+        </p>
+        <BubbleButton className="mx-auto">Try the live preview</BubbleButton>
 
         <Ping />
       </Card>

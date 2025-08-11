@@ -7,27 +7,26 @@ export const Stats = () => {
     <div className="relative overflow-hidden border-y border-zinc-700 bg-zinc-900/30">
       <div className="relative z-20 mx-auto max-w-3xl px-4 py-12">
         <h2 className="mx-auto mb-9 block w-fit bg-gradient-to-br from-zinc-200 to-zinc-500 bg-clip-text text-center text-lg text-transparent">
-          Have hard stats? Numbers don't lie!
+          Real results from Applash users
         </h2>
 
         <div className="flex flex-col items-center justify-center sm:flex-row">
           <Stat
-            num={45}
-            suffix="%"
-            subheading="Lorem ipsum dolor sit amet consectetur"
+            num={9}
+            suffix="min"
+            subheading="Average time to build your app"
           />
           <div className="h-[1px] w-12 bg-zinc-600 sm:h-12 sm:w-[1px]" />
           <Stat
-            num={15.5}
-            decimals={1}
-            suffix="K+"
-            subheading="Lorem ipsum dolor sit amet consectetur"
+            num={100}
+            suffix="+"
+            subheading="Templates and icons to choose from"
           />
           <div className="h-[1px] w-12 bg-zinc-600 sm:h-12 sm:w-[1px]" />
           <Stat
-            num={20}
-            suffix="B+"
-            subheading="Lorem ipsum dolor sit amet consectetur"
+            num={200}
+            suffix="+"
+            subheading="Apps launched with Applash"
           />
         </div>
       </div>

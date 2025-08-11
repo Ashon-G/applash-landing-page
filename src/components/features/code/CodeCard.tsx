@@ -62,18 +62,20 @@ const ToggleChip = ({
   );
 };
 
-const javascriptCode = `import { initializeSDK } from "your-package";
+const javascriptCode = `import { createApp } from "applash";
 
-const app = initializeSDK({
-    apiKey: "sk_abc123"
-});
+createApp({
+    name: "My App",
+    url: "https://my-site.com",
+    themeColor: "#ff6600",
+    template: "shop",
+});`;
 
-app.doCoolThing();`;
+const pythonCode = `from applash import create_app
 
-const pythonCode = `import your_package
-
-app = your_package.init({
-    "api_key": "sk_abc123"
-})
-
-app.do_cool_thing()`;
+create_app(
+    name="My App",
+    url="https://my-site.com",
+    theme_color="#ff6600",
+    template="shop",
+)`;

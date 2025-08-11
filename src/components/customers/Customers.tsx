@@ -20,10 +20,10 @@ export const Customers = () => {
     <section id="testimonials" className="relative overflow-hidden">
       <MaxWidthWrapper className="relative z-10 py-20 md:py-40">
         <SectionHeadingSpacing>
-          <SectionHeading>Loved by our customers</SectionHeading>
+          <SectionHeading>Loved by site owners</SectionHeading>
           <SectionSubheading>
-            People trust people. Show off all of the great reviews of your
-            product to ease the minds of potential customers.
+            Creators around the world use Applash to reach mobile users and
+            grow their businesses.
           </SectionSubheading>
         </SectionHeadingSpacing>
         <motion.div
@@ -121,28 +121,28 @@ const REVIEWS = {
       name: "John Johnson",
       handle: "@johns6",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum labore incidunt temporibus sunt? Excepturi nulla atque odio dolore, velit harum.",
+        "Applash turned our blog into an app before lunch. So easy!",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Dan",
       name: "Dan Daniels",
       handle: "@DannyD",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum labore velit harum.",
+        "The live preview let us fine-tune everything instantly.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Phil",
       name: "Phil Phillips",
       handle: "@phillipsp55104",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum labore incidunt temporibus sunt? Excepturi velit harum.",
+        "Publishing to TestFlight without a Mac blew my mind.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Andy",
       name: "Andy Anderson",
       handle: "@andyandyandy",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing. Excepturi nulla atque odio dolore, velit harum.",
+        "Our customers love the push notifications powered by Applash.",
     },
   ],
   center: [
@@ -150,28 +150,28 @@ const REVIEWS = {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Steve",
       name: "Steve Stevenson",
       handle: "@steves",
-      review: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
+      review: "No code needed and the app feels completely native.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Peter",
       name: "Peter Peterson",
       handle: "@petey.pete",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum labore incidunt.",
+        "Payment plans with Stripe were set up in minutes.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Paul",
       name: "Paul Paulson",
       handle: "@p.paulson44",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit velit harum.",
+        "We launched on iOS and Android with one click.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Phil",
       name: "Andrew Andrews",
       handle: "@andrewA",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum labore incidunt temporibus sunt.",
+        "Support was fast and friendly throughout the build.",
     },
   ],
   right: [
@@ -180,28 +180,28 @@ const REVIEWS = {
       name: "Jeff Jefferson",
       handle: "@jeffJ99",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi nulla atque odio dolore, velit harum.",
+        "The templates look great right out of the box.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jess",
       name: "Jess Jessica",
       handle: "@jess",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum labore velit harum. Dolor sit amet consectetur adipisicing elit!",
+        "Finally, a simple way to offer an app to our users.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ben",
       name: "Ben Benjamin",
       handle: "@banjamin4491",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum labore incidunt temporibus sunt? Excepturi velit harum.",
+        "Applash handles updates automatically—huge time saver.",
     },
     {
       src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Frank",
       name: "Frank Franklin",
       handle: "@frankyf00",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing. Excepturi nulla.",
+        "Our site became a smooth Flutter app in no time.",
     },
   ],
 };

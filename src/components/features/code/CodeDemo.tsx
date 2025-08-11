@@ -17,10 +17,10 @@ export const CodeDemo = () => {
         </span>
         <SectionHeadingSpacing>
           <SectionHeading persistCenter>
-            If it's code, show how it works
+            See your app before it’s built
           </SectionHeading>
           <SectionSubheading persistCenter>
-            Show why you're better than your competitors
+            Preview changes in real time with our Expo Snack integration.
           </SectionSubheading>
         </SectionHeadingSpacing>
         <CodeCard />

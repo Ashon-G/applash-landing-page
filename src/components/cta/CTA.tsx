@@ -27,7 +27,7 @@ export const CTA = () => {
           }}
           className="relative mb-3"
         >
-          <GlowingChip>Exciting announcement 🎉</GlowingChip>
+          <GlowingChip>Ready to go mobile?</GlowingChip>
         </motion.div>
         <motion.h1
           initial={{
@@ -45,7 +45,7 @@ export const CTA = () => {
           }}
           className="mb-9 max-w-xl text-center text-3xl font-bold leading-tight text-zinc-50 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
         >
-          A landing page template that works for you
+          Launch your app today with Applash
         </motion.h1>
         <motion.div
           initial={{
@@ -67,14 +67,14 @@ export const CTA = () => {
             onClick={() => router.push("/signin")}
             className="flex items-center gap-2"
           >
-            Try it free
+            Start for free
             <FiArrowRight />
           </SplashButton>
           <GhostButton
             onClick={() => router.push("/#features")}
             className="rounded-md px-4 py-2 text-lg text-zinc-100"
           >
-            Learn more
+            Explore features
           </GhostButton>
         </motion.div>
       </MaxWidthWrapper>

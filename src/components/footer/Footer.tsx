@@ -92,7 +92,7 @@ const LogoColumn = () => {
     <div className="col-span-6 md:col-span-4">
       <NavLogo />
       <span className="mt-3 inline-block text-xs text-zinc-400">
-        © Hover.dev - All rights reserved.
+        © Applash - All rights reserved.
       </span>
     </div>
   );

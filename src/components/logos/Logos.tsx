@@ -4,7 +4,7 @@ export const Logos = () => {
   return (
     <section className="relative mx-auto max-w-7xl overflow-hidden border-b border-zinc-700 py-6">
       <span className="mx-auto mb-9 block w-fit bg-gradient-to-br from-zinc-200 to-zinc-500 bg-clip-text text-center text-lg text-transparent">
-        Trusted by companies of all sizes
+        Trusted by web creators worldwide
       </span>
       <div className="flex overflow-hidden">
         <TranslateWrapper>
